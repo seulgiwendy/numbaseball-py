@@ -7,7 +7,7 @@ class Umpire():
         for i in range(len(player_list)):
             user_ball = player_list[i]
 
-            if user_ball in answer_list and user_ball != player_list[i]:
+            if user_ball in answer_list and user_ball != answer_list[i]:
                 counted_ball += 1
 
         return counted_ball
@@ -22,5 +22,6 @@ class Umpire():
 
         return counted_strike
 
-
+u = Umpire()
+print(u.ball_count([1, 2, 4], [3, 2, 1]))
 
