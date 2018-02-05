@@ -14,9 +14,6 @@ class Pitcher():
             balls_array.append(random_int)
 
         balls_array.sort()
+
+        print(balls_array)
         return balls_array
-
-
-p = Pitcher()
-
-print(p.throw())
