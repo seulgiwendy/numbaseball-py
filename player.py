@@ -47,7 +47,7 @@ def main():
 
 
     if attempt_count - 1 >= max_count:
-        print("기회를 모두 날렸습니다. 다음엔 꼭 성공하세요.")
+        print("기회를 모두 날렸습니다. 다음엔 꼭 성공하세요. \n 물론 다음에 새로 하면 다른 숫자가 생성되겠죠? \n ㅋㅋㅋㅋㅋ")
         return
 
     print("You Win!")
