@@ -22,6 +22,3 @@ class Umpire():
 
         return counted_strike
 
-u = Umpire()
-print(u.ball_count([1, 2, 4], [3, 2, 1]))
-

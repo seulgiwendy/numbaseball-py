@@ -1,5 +1,6 @@
 import random
 
+
 class Pitcher():
 
     def throw(self):
@@ -15,5 +16,5 @@ class Pitcher():
 
         balls_array.sort()
 
-        print(balls_array)
         return balls_array
+
