@@ -1,6 +1,5 @@
 import random
 
-
 class Pitcher():
 
     def throw(self):
@@ -17,4 +16,3 @@ class Pitcher():
         balls_array.sort()
 
         return balls_array
-
